@@ -1,12 +1,12 @@
 {
   "name": "@microservice-tickets/common",
   "version": "1.0.0",
-  "description": "",
+  "description": "Common library for ticketing microservice project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "santhosheshwaramma@gmail.com",
   "license": "ISC"
 }
