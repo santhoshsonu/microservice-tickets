@@ -10,5 +10,6 @@ export const errorHandler = (
 ) => {
   if (err instanceof CustomError)
     return res.status(err.statusCode).json({ errors: err.serializeErrors() });
+  console.error(err);
   return res.status(500).json({ errors: [{ message: 'Oops! Something went wrong' }] });
 };
