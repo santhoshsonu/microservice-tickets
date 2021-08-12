@@ -1,6 +1,6 @@
 {
   "name": "@microservice-tickets/common",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Common library for ticketing microservice project",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
