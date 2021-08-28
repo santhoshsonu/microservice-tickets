@@ -12,6 +12,7 @@ export * from './middlewares/error-handler';
 export * from './middlewares/require-auth';
 export * from './middlewares/validate-request';
 
+export * from './events/types/order-status';
 export * from './events/listener';
 export * from './events/publisher';
 export * from './events/subjects';
