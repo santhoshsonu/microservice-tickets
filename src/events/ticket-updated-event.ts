@@ -10,6 +10,6 @@ export interface TicketUpdatedEvent {
     userId: string;
     createdAt: Date;
     updatedAt: Date;
-    orderId: string;
+    orderId?: string;
   };
 }
